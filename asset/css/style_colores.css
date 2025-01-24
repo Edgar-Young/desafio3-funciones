@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+#div-1,
+#div-2,
+#div-3,
+#div-4 {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  line-height: 200px;
+  text-align: center;
+  color: white;
+}
+#div-1 {
+  background-color: blue;
+}
+#div-2 {
+  background-color: red;
+}
+#div-3 {
+  background-color: green;
+}
+#div-4 {
+  background-color: yellow;
+}
